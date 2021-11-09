@@ -1,8 +1,3 @@
-/*
-    Name: Quoc Viet Nguyen
-    Student Number: 22112348
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -641,13 +636,6 @@ int main(int argc, char *argv[])
     
     // Get rank of process and size of comm
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-
-    if (rank == 0)
-    {        
-        printf("VIET N: 22112348\n");
-        printf("PROJECT 2 STARTS HERE. \n\n");
-    }
-
     MPI_Barrier(MPI_COMM_WORLD);
     
     // CLEAN UP INPUTS
